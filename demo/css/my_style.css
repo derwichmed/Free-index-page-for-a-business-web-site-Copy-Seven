@@ -1,0 +1,92 @@
+.team_profile_item > div:first-child{
+    width: 200px;
+    height: 200px;
+    border: #4c5d77 20px solid;
+    border-color: transparent;
+    border-left-color: #4c5d77;
+    border-radius: 100px;
+    margin: auto
+}
+.team_profile_item > div:first-child > div{
+    width: 100%;
+    height: 100%;
+    border: #4c5d77 2px solid;
+    border-radius: 100px;
+    padding: 2px
+}
+.team_profile_item > div:first-child > div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px
+}
+.team_profile_item > strong{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #4c5d77;
+    font-size: 14px
+}
+.team_profile_item > em{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #4c5d77;
+    font-size: 17px;
+    font-weight: bold
+}
+.team_profile_item > p{
+    
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Raleway';
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #424242;
+    text-align: center
+}
+.team_profile_item .footer{
+    width: 100%;
+}
+.team_profile_item .footer > div{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.team_profile_item .footer > div img{
+    width: 100%;
+    height: 100%
+}
+.team_profile_header > div{
+    background-color: #f0f0f0;
+    height: 120px;
+}
+.team_profile_header > div strong{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding-top: 20px;
+    color: black
+}
+.team_profile_header > div p{
+    text-align: center
+}
+.team_profile_header > div p a{
+    font-weight: bold;
+    color: green;
+    text-decoration: underline
+}
+@media(max-width: 800px){
+    .team_profile_item{
+        border: #d3d3d3 2px solid;
+        padding-bottom: 10px;
+        margin-top: 20px
+    }
+    .team_profile{
+        padding: 10px
+    }
+}
